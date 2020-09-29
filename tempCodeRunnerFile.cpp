@@ -13,5 +13,6 @@ int main()
   for (auto i = g1.begin(); i != g1.end() ; ++i)
   {
     cout << *i << " ";
+    cout << "This is the implementation of vectors. ";
   }
 }
