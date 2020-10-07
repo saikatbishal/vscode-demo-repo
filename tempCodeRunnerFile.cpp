@@ -37,4 +37,18 @@ int main()
 {
   cout << *it3 << " ";
 }
+//the precedent for loop might also be written as follows
+cout << endl;
+for(int y : s)
+{
+  cout << y << "=";
+}
+cout << endl;
+//to reflect any change in the original values we may have to iterate by values
+for( int &x :s)
+{
+  ++x;
+  cout << x << " ";
+}
+
 }
